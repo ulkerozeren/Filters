@@ -16,10 +16,10 @@ namespace WebApplication1
 
         public void OnActionExecuting(ActionExecutingContext context)
         {
-            context.Result = new ContentResult()
-            {
-                Content="Short circle"
-            };
+            //context.Result = new ContentResult()
+            //{
+            //    Content="Short circle"
+            //};
         }
     }
 }
